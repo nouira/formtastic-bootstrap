@@ -9,9 +9,12 @@ module FormtasticBootstrap
           {}.tap do |opts|
             opts[:for] ||= input_html_options[:id]
             opts[:class] = [opts[:class]]
+            if render_horizontal?
+              opts[:class] << "control-label"
+            end
           end
         end
-        
+
       end
     end
   end

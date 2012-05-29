@@ -6,16 +6,31 @@ module FormtasticBootstrap
         include Formtastic::Inputs::Base::Wrapping
 
         def generic_input_wrapping(&block)
-          clearfix_div_wrapping do
-            label_html <<
-            input_div_wrapping do
-              if options[:prepend]
-                prepended_input_wrapping do
-                  [template.content_tag(:span, options[:prepend], :class => 'add-on'), yield].join("\n").html_safe
-                end
-              else
-                yield
-              end
+          if render_horizontal?
+            control_group_div_wrapping do
+              label_html <<
+                  input_div_wrapping do
+                    if options[:prepend]
+                      prepended_input_wrapping do
+                        [template.content_tag(:span, options[:prepend], :class => 'add-on'), yield].join("\n").html_safe
+                      end
+                    else
+                      yield
+                    end
+                  end
+            end
+          else
+            clearfix_div_wrapping do
+              label_html <<
+                  input_div_wrapping do
+                    if options[:prepend]
+                      prepended_input_wrapping do
+                        [template.content_tag(:span, options[:prepend], :class => 'add-on'), yield].join("\n").html_safe
+                      end
+                    else
+                      yield
+                    end
+                  end
             end
           end
         end
@@ -55,7 +70,37 @@ module FormtasticBootstrap
       
           opts
         end
-        
+
+        def control_group_div_wrapping(&block)
+          template.content_tag(:div, control_group_wrapper_html_options) do
+            yield
+          end
+        end
+
+        def control_group_wrapper_html_options
+          opts = options[:wrapper_html] || {}
+          opts[:class] ||= []
+          opts[:class] = [opts[:class].to_s] unless opts[:class].is_a?(Array)
+          opts[:class] << as
+          opts[:class] << "control-group"
+          # opts[:class] << "input"
+          opts[:class] << "error" if errors?
+          opts[:class] << "optional" if optional?
+          opts[:class] << "required" if required?
+          opts[:class] << "autofocus" if autofocus?
+          opts[:class] = opts[:class].join(' ')
+
+          opts[:id] ||= wrapper_dom_id
+
+          opts
+        end
+
+        def render_horizontal?
+          return false if options[:horizontal] == false
+          true
+        end
+
+
         def prepended_input_wrapping(&block)
           template.content_tag(:div, :class => 'input-prepend') do
             yield

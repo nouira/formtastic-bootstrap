@@ -5,6 +5,7 @@ module FormtasticBootstrap
       include Base::Stringish
 
       def to_html
+        options[:label]
         generic_input_wrapping do
           builder.text_field(method, input_html_options)
         end
