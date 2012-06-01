@@ -4,12 +4,13 @@ module FormtasticBootstrap
       module Wrapping
 
         include Formtastic::Inputs::Base::Wrapping
+        include FormtasticBootstrap::Inputs::Base::Timeish
 
         def generic_input_wrapping(&block)
           if render_horizontal?
             control_group_div_wrapping do
-              label_html <<
-                  input_div_wrapping do
+              control_label_html <<
+                  horizontal_input_div_wrapping do
                     if options[:prepend]
                       prepended_input_wrapping do
                         [template.content_tag(:span, options[:prepend], :class => 'add-on'), yield].join("\n").html_safe
@@ -95,9 +96,14 @@ module FormtasticBootstrap
           opts
         end
 
+        def horizontal_input_div_wrapping(inline_or_block_errors = :inline)
+          template.content_tag(:div, :class => "input controls") do
+            [yield, error_html(inline_or_block_errors), hint_html(inline_or_block_errors)].join("\n").html_safe
+          end
+        end
+
         def render_horizontal?
-          return false if options[:horizontal] == false
-          true
+          ! (@builder.options[:html][:class] =~ /form-horizontal/).nil?
         end
 
 

@@ -10,6 +10,12 @@ module FormtasticBootstrap
           end
         end
 
+        def control_label_html
+          template.content_tag(:label, label_html_options.merge(:class => "control-label"))  do
+            render_label? ? label_text : "".html_safe
+          end
+        end
+
         def date_input_html
           fragment_input_html(:date, "small")
         end
