@@ -1,7 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c63be171-a612-4e9b-8623-699f1627f0c3" name="Default" comment="" />
+    <list default="true" id="c63be171-a612-4e9b-8623-699f1627f0c3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/actions.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/actions/base.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/actions/button_action.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/actions/input_action.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/actions/link_action.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/helpers/action_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/helpers/actions_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/collections.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/grouped_collections.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/numeric.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/date_select_input.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/datetime_select_input.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/time_select_input.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/actions/button_action_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/actions/input_action_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/actions/link_action_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/action_helper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/helpers/actions_helper_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/inputs/date_select_input_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/inputs/datetime_select_input_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/inputs/deprecated_time_date_datetime_inputs_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/inputs/time_select_input_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/support/fb_custom_macros.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/helpers/buttons_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/builder/errors_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/helpers/buttons_helper_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/inputs/date_input_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/inputs/datetime_input_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/inputs/time_input_spec.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/support/depracation.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/support/formtastic_spec_helper.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/formtastic-bootstrap.iml" afterPath="$PROJECT_DIR$/.idea/formtastic-bootstrap.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VERSION" afterPath="$PROJECT_DIR$/VERSION" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/formtastic-bootstrap.gemspec" afterPath="$PROJECT_DIR$/formtastic-bootstrap.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/form_builder.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/form_builder.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/helpers.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/helpers.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/helpers/fieldset_wrapper.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/helpers/fieldset_wrapper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/helpers/inputs_helper.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/helpers/inputs_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/choices.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/choices.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/hints.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/hints.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/labelling.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/labelling.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/stringish.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/stringish.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/timeish.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/timeish.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/wrapping.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/wrapping.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/boolean_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/boolean_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/check_boxes_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/check_boxes_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/date_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/date_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/datetime_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/datetime_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/email_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/email_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/file_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/file_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/hidden_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/hidden_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/number_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/number_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/password_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/password_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/phone_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/phone_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/radio_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/radio_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/range_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/range_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/search_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/search_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/select_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/select_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/string_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/string_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/text_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/text_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/time_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/time_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/time_zone_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/time_zone_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/url_input.rb" afterPath="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/url_input.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/input_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/input_helper_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/inputs_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/inputs_helper_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/boolean_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/boolean_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/check_boxes_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/check_boxes_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/email_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/email_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/file_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/file_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/hidden_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/hidden_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/number_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/number_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/password_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/password_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/phone_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/phone_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/radio_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/radio_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/range_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/range_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/search_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/search_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/select_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/select_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/string_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/string_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/text_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/text_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/time_zone_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/time_zone_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/inputs/url_input_spec.rb" afterPath="$PROJECT_DIR$/spec/inputs/url_input_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/support/custom_macros.rb" afterPath="$PROJECT_DIR$/spec/support/custom_macros.rb" />
+    </list>
     <ignored path="formtastic-bootstrap.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,28 +114,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="horizontal_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="horizontal_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/horizontal/horizontal_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="516" selection-end="516" vertical-scroll-proportion="0.3324468">
+            <state line="21" column="0" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form_builder.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/form_builder.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0">
+            <state line="10" column="29" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/helpers.rb">
+      <file leaf-file-name="formtastic-bootstrap.gemspec" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formtastic-bootstrap.gemspec">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_builder.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/form_builder.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="12" selection-start="977" selection-end="977" vertical-scroll-proportion="0.67901236">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actions.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/actions.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="string_input.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/string_input.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -52,43 +171,25 @@
       <file leaf-file-name="wrapping.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/wrapping.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="58" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timeish.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/timeish.rb">
+      <file leaf-file-name="labelling.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/labelling.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+            <state line="24" column="0" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timeish.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/formtastic-bootstrap-1.2.0/lib/formtastic-bootstrap/inputs/base/timeish.rb">
+      <file leaf-file-name="helpers.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/helpers.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="289" selection-end="495" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/formtastic-2.0.2/lib/formtastic/helpers/form_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="0" selection-start="6219" selection-end="6219" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="semantic_fields_for_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/builder/semantic_fields_for_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,26 +217,26 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/string_input.rb" />
-        <option value="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/labelling.rb" />
-        <option value="$PROJECT_DIR$/formtastic-bootstrap.gemspec" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/formtastic-bootstrap/helpers/form_helper.rb" />
         <option value="$PROJECT_DIR$/lib/formtastic-bootstrap/railtie.rb" />
-        <option value="$PROJECT_DIR$/lib/formtastic-bootstrap/form_builder.rb" />
-        <option value="$PROJECT_DIR$/lib/formtastic-bootstrap/helpers.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/formtastic-bootstrap-1.2.0/lib/formtastic-bootstrap/inputs/base/timeish.rb" />
         <option value="$PROJECT_DIR$/spec/horizontal/horizontal_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/timeish.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/formtastic-bootstrap.gemspec" />
+        <option value="$PROJECT_DIR$/lib/formtastic-bootstrap/helpers.rb" />
+        <option value="$PROJECT_DIR$/lib/formtastic-bootstrap/form_builder.rb" />
+        <option value="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/string_input.rb" />
         <option value="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/wrapping.rb" />
+        <option value="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/timeish.rb" />
+        <option value="$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/labelling.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="17" />
-    <option name="width" value="1618" />
-    <option name="height" value="865" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1535" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -163,22 +264,134 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="formtastic-bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inputs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="formtastic-bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inputs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -362,9 +575,7 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <method>
-        <option name="RakeTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
@@ -392,9 +603,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method>
-        <option name="RakeTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
       <module name="" />
@@ -412,9 +621,7 @@
       </EXTENSION>
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method>
-        <option name="RakeTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
@@ -438,9 +645,7 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method>
-        <option name="RakeTask" enabled="false" />
-      </method>
+      <method />
     </configuration>
     <configuration default="false" name="Unnamed" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
@@ -473,12 +678,12 @@
       <method />
     </configuration>
     <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Rake.gemspec:generate" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.gemspec:release" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.select_input_spec" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.horizontal_spec" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.Unnamed" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.gemspec:generate" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.gemspec:release" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.select_input_spec" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.horizontal_spec" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -529,19 +734,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="17" width="1618" height="865" extended-state="0" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1535" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2774903" sideWeight="0.6027972" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2821549" sideWeight="0.6027972" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3972028" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -574,7 +780,6 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
@@ -584,7 +789,6 @@
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
@@ -608,25 +812,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/spec/inputs/boolean_input_spec.rb</url>
-          <line>24</line>
+          <line>23</line>
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/formtastic-2.0.2/lib/formtastic/semantic_form_builder.rb">
+    <entry file="file://$PROJECT_DIR$/spec/builder/semantic_fields_for_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="195" selection-end="195" vertical-scroll-proportion="0.16" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/formtastic-2.0.2/lib/formtastic/form_builder.rb">
+    <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/formtastic-2.0.2/lib/formtastic/engine.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/helpers/input_helper.rb">
@@ -639,16 +842,6 @@
         <state line="7" column="100" selection-start="146" selection-end="146" vertical-scroll-proportion="0.1590909" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/formtastic-2.0.2/lib/formtastic.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/formtastic-2.0.2/lib/formtastic/railtie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="0" selection-end="247" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/builder/semantic_fields_for_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -659,47 +852,72 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/form_builder.rb">
+    <entry file="file://$PROJECT_DIR$/spec/horizontal/horizontal_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/formtastic-2.0.2/lib/formtastic/helpers/form_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="0" selection-start="6219" selection-end="6219" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/helpers.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="10" column="29" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/gems/formtastic-bootstrap-1.2.0/lib/formtastic-bootstrap/inputs/base/timeish.rb">
+    <entry file="file://$PROJECT_DIR$/formtastic-bootstrap.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="289" selection-end="495" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/actions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/timeish.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+        <state line="21" column="0" selection-start="573" selection-end="573" vertical-scroll-proportion="0.43994415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/labelling.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/base/wrapping.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="58" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/horizontal/horizontal_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/inputs/string_input.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="516" selection-end="516" vertical-scroll-proportion="0.3324468">
+        <state line="5" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/formtastic-bootstrap/form_builder.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="12" selection-start="977" selection-end="977" vertical-scroll-proportion="0.67901236">
           <folding />
         </state>
       </provider>
